@@ -1,0 +1,81 @@
+@import "bootstrap/scss/bootstrap";
+@font-face {
+    font-family: 'Halyard';
+    src: url('../../public/Halyard.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'colorful';
+    src: url('../../public/colorful.ttf') format('truetype');
+}
+
+body {
+    // background-color: #FFF01D;
+    background-color: black;
+    // margin-bottom: 70px;
+}
+
+#allglyph {
+    height: 35vh;
+    margin-top: 5vw;
+    // margin-right: 6vw;
+    margin-left: 6vw;
+}
+
+.wrapper {
+    width: 10.25vw;
+    height: 10.25vw;
+    padding: 0px;
+}
+
+.typecard {
+    position: relative;
+    // left: -.5px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #373737;
+    width: 10.25vw;
+    height: 10.25vw;
+    font-size: 7vw;
+    font-family: 'colorful';
+    color: white;
+    background-color: black;
+    transition: background-color 0.5s ease;
+}
+
+.typecard:hover {
+    background-color: white;
+    color: black;
+}
+
+.glyph {
+    position: relative;
+    top: .1vw;
+}
+
+#largeglyphwrapper {
+    margin-top: 5vh;
+    margin-right: 6vw;
+    margin-left: 6vw;
+    background-color: white;
+    color: black;
+    font-family: 'colorful';
+    text-align: center;
+    font-size: 40vh;
+    height: 50vh;
+    // width: 53vh;
+}
+
+#largeglyph {
+    margin-top: -4.5vh;
+}
+
+hr {
+    padding: 0;
+    margin-top: 0px;
+}
+
+.grid {
+    // margin
+    margin-bottom: 5vw;
+}
